@@ -1,5 +1,9 @@
 ## Install the reqiured npm packages along with MiKTeX
 
-### npm install
+'''
+ npm install
+ ''' 
 
-### npm start
+''' 
+npm start
+'''
