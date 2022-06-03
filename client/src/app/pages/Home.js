@@ -321,7 +321,7 @@ class Home extends Component<Props> {
           </RightSection>
         </Main>
         <Footer>
-          <Copyright>© 2021 MCET Major Project</Copyright>
+          <Copyright>© 2022 MCET Major Project</Copyright>
           <Links>
             <Link to="/about">About</Link>
             <a href="https://github.com/gursimarh">Source</a>

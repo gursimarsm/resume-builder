@@ -276,105 +276,12 @@ and create a killer resume that will:
 </ListAnswer>
 </p>
           </Answer>
-          <Question>Are you accepting open-source contributions?</Question>
-          <Answer>
-            Definitely! I'm always happy to help out first-time contributors to
-            the project. You can check out the{' '}
-            <Link href="https://github.com/saadq/resumake/tree/master/contributing.md">
-              <code>contributing.md</code>
-            </Link>{' '}
-            for an in-depth guide on how to get started on working on this
-            project.
-          </Answer>
-          <Question>How can I donate or say thanks?</Question>
-          <Answer>
-            Glad you liked the project! If you want to show your appreciation,{' '}
-            <Link href="https://www.paypal.me/saadquadri">donations</Link> are
-            very much appreciated. Or, if you'd just like to send me a message,
-            you can send me an <Link href="mailto:saad@saadq.com">email</Link>.
-          </Answer>
+         
         </section>
         <SectionDivider />
-        <section>
-          <Heading>Credits</Heading>
-          <p>
-            A huge thanks to all the original creators of the LaTeX templates:
-          </p>
-          <ul>
-            <li>
-              <Link href="https://www.rpi.edu/dept/arc/training/latex/resumes/">
-                Rensselaer Career Development Center
-              </Link>
-            </li>
-            <li>
-              <Link href="https://github.com/posquit0">Byungjin Park</Link>
-            </li>
-            <li>
-              <Link href="https://github.com/sc932">Scott Clark</Link>
-            </li>
-            <li>
-              <Link href="https://github.com/deedy">Debarghya Das</Link>
-            </li>
-            <li>
-              <Link href="https://github.com/xdanaux">Xavier Danaux</Link>
-            </li>
-            <li>
-              <Link href="https://github.com/RatulSaha">Ratul Saha</Link>
-            </li>
-            <li>
-              <Link href="https://github.com/dnl-blkv">Daniil Belyakov</Link>
-            </li>
-            <li>
-              <Link href="https://www.overleaf.com/latex/templates/your-new-cv/xqzhcmqkqrtw">
-                Frits Wenneker
-              </Link>
-            </li>
-          </ul>
-        </section>
-        <SectionDivider />
-        <section>
-          <Heading>Style Guide</Heading>
-          <h3>Logo</h3>
-          <Box>
-            <Logo />
-          </Box>
-          <h3>Colors</h3>
-          <Box>
-            <Color color={colors.primary} dark>
-              {colors.primary}
-            </Color>
-            <Color color={colors.error}>{colors.error}</Color>
-            <Color color={colors.background}>{colors.background}</Color>
-            <Color color={colors.borders}>{colors.borders}</Color>
-            <Color color={colors.foreground} dark>
-              {colors.foreground}
-            </Color>
-            <Color color="#ffffff" dark>
-              #ffffff
-            </Color>
-          </Box>
-          <h3>Buttons</h3>
-          <Box>
-            <PrimaryButton>Button</PrimaryButton>
-            <UnfilledButton>Button</UnfilledButton>
-            <Button>Button</Button>
-            <RoundedButton>
-              <Icon type="add" />
-            </RoundedButton>
-          </Box>
-          <h3>Form</h3>
-          <VerticalBox>
-            <FormLabel>Form Input</FormLabel>
-            <FormInput placeholder="Text goes here" />
-            <FormLabel>Section Divider</FormLabel>
-            <FormDivider />
-          </VerticalBox>
-          <h3>Loading</h3>
-          <VerticalBox>
-            <Loader />
-            <LoadingBar status="pending" />
-          </VerticalBox>
-        </section>
+        
+
+        
       </Content>
     </Wrapper>
   )
