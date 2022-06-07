@@ -1,4 +1,4 @@
-# resumake.io server
+# resumebuilder server
 This contains the code for the api backend for resumake.io. Check out the [Contributing Server Changes](../../contributing.md#contributing-server-changes) in the contributing.md file to learn how to work on the app.
 
 ### Install dependencies
