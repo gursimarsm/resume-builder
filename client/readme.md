@@ -1,5 +1,4 @@
-# Resumake (Client)
-This contains the clientside webapp for Resumake. Check out the [Contributing Client Changes](../../contributing.md#contributing-client-changes) in the contributing.md file to learn how to work on the app.
+# resumebuilder (Client)
 
 ### Install dependencies
 ```
